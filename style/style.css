@@ -1,0 +1,41 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+/* body {
+  font-family: "Raleway", sans-serif;
+} */
+
+.text-body {
+  color: rgba(3, 7, 18, 0.7);
+}
+
+.seat {
+  color: rgba(3, 7, 18, 0.5);
+}
+
+.text-header {
+  color: rgb(3, 7, 18);
+}
+
+.banner {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.route-p {
+  border-bottom: 2px dashed rgb(170, 168, 168);
+}
+.seat-div {
+  border-bottom: 2px dashed rgb(170, 168, 168);
+  border-top: 2px dashed rgb(170, 168, 168);
+}
+.right-seat-box {
+  border-left: 2px dashed rgb(170, 168, 168);
+}
+/* #1dd100 */
