@@ -20,7 +20,7 @@ for (let chair of chairs) {
       const phnNumber = document.getElementById("phn-number");
       const nextBtn = document.getElementById("next");
       phnNumber.addEventListener("keyup", function () {
-        if (!isNaN(phnNumber.value) && String(phnNumber.value.length) > 0) {
+        if (String(phnNumber.value.length) > 0) {
           nextBtn.removeAttribute("disabled");
         }
       });
@@ -32,6 +32,7 @@ for (let chair of chairs) {
 
       const chairP = document.createElement("p");
       chairP.classList.add("chair-details");
+      chairP.classList.add("pb-3");
 
       const span1 = document.createElement("span");
       span1.innerText = e.target.innerText;
