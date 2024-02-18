@@ -9,6 +9,7 @@
 
 * {
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .inter {
@@ -49,4 +50,19 @@
 .right-seat-box {
   border-left: 2px dashed rgb(170, 168, 168);
 }
-/* #1dd100 */
+
+.chair-details {
+  color: rgba(3, 7, 18, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+.selected-chair {
+  background-color: #1dd100;
+  color: white;
+}
+
+.selected-chair:disabled {
+  background-color: #1dd100;
+  color: white;
+}
+/*  #1dd100*/
