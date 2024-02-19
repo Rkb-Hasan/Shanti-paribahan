@@ -75,7 +75,7 @@
 
       <!-- banner start -->
       <div
-        class="banner text-center px-52 py-20 rounded-t-[30px] text-white space-y-8 mt-8"
+        class="banner text-center px-52 pt-20 pb-40 rounded-t-[30px] text-white space-y-8 mt-8"
       >
         <h1 class="text-6xl font-extrabold">
           End-to-End Travel with <br />
@@ -92,19 +92,74 @@
         </button>
       </div>
       <!-- banner end -->
+
+      <!-- data-container start -->
+      <div class="flex gap-10 justify-center items-center relative bottom-16">
+        <!-- first-box -->
+        <div
+          class="flex gap-4 items-center px-8 py-6 bg-white border-b-4 border-[#1dd100] rounded-2xl"
+        >
+          <div>
+            <img src="./images/people.png" alt="" />
+          </div>
+          <div class="space-y-3">
+            <h1 class="text-4xl font-bold text-[#030712] inter" #030712="">
+              500K+
+            </h1>
+            <p class="text-lg text-[#030712] opacity-60 inter" #030712="">
+              Registered users
+            </p>
+          </div>
+        </div>
+        <!-- second-box -->
+        <div
+          class="flex gap-4 items-center px-8 py-6 bg-white border-b-4 border-[#1dd100] rounded-2xl"
+        >
+          <div>
+            <img src="./images/ticket-cupon.png" alt="" />
+          </div>
+          <div class="space-y-3">
+            <h1 class="text-4xl font-bold text-[#030712] inter" #030712="">
+              1.7 lacks
+            </h1>
+            <p class="text-lg text-[#030712] opacity-60 inter" #030712="">
+              Tickets sold
+            </p>
+          </div>
+        </div>
+        <!-- third-box -->
+        <div
+          class="flex gap-4 items-center px-8 py-6 bg-white border-b-4 border-[#1dd100] rounded-2xl"
+        >
+          <div>
+            <img src="./images/stoppage.png" alt="" />
+          </div>
+          <div class="space-y-3">
+            <h1 class="text-4xl font-bold text-[#030712] inter" #030712="">
+              80K+
+            </h1>
+            <p class="text-lg text-[#030712] opacity-60 inter" #030712="">
+              Rental partners
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- data-container end-->
     </header>
     <!-- header-end -->
 
+    <!-- main-start -->
     <main>
       <!-- best-offer-section -->
-      <section class="w-[90%] mx-auto space-y-12 mt-[180px] text-center">
+      <section class="w-[90%] mx-auto space-y-12 mt-[120px] text-center">
         <h3 class="text-4xl font-bold text-header">Best offers for you</h3>
+
         <!-- coupon-container -->
-        <div class="flex justify-center items-center gap-6">
+        <div class="flex gap-8 justify-center items-center">
           <!-- yellow-coupon -->
-          <div class="bg-[#ffbf0f] rounded-lg flex gap-8">
+          <div class="bg-[#ffbf0f] rounded-3xl flex gap-8">
             <!-- left-box -->
-            <div class="space-y-2 p-12 pb-0">
+            <div class="space-y-2 p-12 pb-0 text-left">
               <h1
                 class="text-4xl font-extrabold text-[#030712] opacity-80 inter"
               >
@@ -123,7 +178,7 @@
               <img src="./images/cupon-devider.png" alt="" />
             </div>
             <!-- right-box -->
-            <div class="space-y-5 p-12 pl-0 pb-0 pt-16">
+            <div class="space-y-5 pr-14 pl-0 pb-0 pt-16">
               <h3 class="text-3xl font-bold text-[#030712]" id="new15">
                 NEW15
               </h3>
@@ -134,9 +189,9 @@
           </div>
 
           <!-- pink-coupon -->
-          <div class="bg-[#f78c9c] rounded-lg flex gap-8">
+          <div class="bg-[#f78c9c] rounded-3xl flex gap-8">
             <!-- left-box -->
-            <div class="space-y-2 p-12 pb-0">
+            <div class="space-y-2 p-12 pb-0 text-left">
               <h1
                 class="text-4xl font-extrabold text-[#030712] opacity-80 inter"
               >
@@ -177,7 +232,7 @@
 
       <!-- ticket-section -->
       <section
-        class="mt-28 border-t rounded-[50px] border-[#1dd100] bg-[#f7f8f8]"
+        class="mt-28 border-t-2 rounded-t-[50px] border-[#1dd100] bg-[#f7f8f8] pb-28"
         id="ticket-section"
       >
         <!-- ticket-container -->
@@ -206,7 +261,9 @@
                     <h1 class="text-header font-bold text-3xl">
                       Shanti Paribahan
                     </h1>
-                    <p class="text-body text-lg">Coach-009-WEB ! AC_Business</p>
+                    <p class="text-body text-lg inter">
+                      Coach-009-WEB ! AC_Business
+                    </p>
                   </div>
                 </div>
 
@@ -564,13 +621,7 @@
                 </div>
 
                 <!-- seat-details-container -->
-                <div id="chair-details-container">
-                  <!-- <p class="chair-details">
-                    <span id="chair-name"></span>
-                    <span></span>
-                    <span></span>
-                  </p> -->
-                </div>
+                <div id="chair-details-container"></div>
 
                 <!-- second-line -->
                 <hr class="bg-[#f7f8f8] h-1" />
@@ -669,6 +720,7 @@
               >
                 Next
               </button>
+
               <dialog id="my_modal_1" class="modal">
                 <div class="modal-box text-center">
                   <div class="flex justify-center">
@@ -677,7 +729,7 @@
                   <h3 class="font-bold text-2xl text-[#27ae60] mt-4">
                     SUCCESS
                   </h3>
-                  <p class="py-4">
+                  <p class="py-4 text-xl font-semibold">
                     Thank you for Booking Our Bus Seats. <br />
                     We are working hard to find the best service and deals for
                     you.
@@ -705,10 +757,54 @@
           </div>
         </div>
       </section>
-
-      <!-- modal -->
-      <!-- Open the modal using ID.showModal() method -->
     </main>
+    <!-- main-end -->
+
+    <!-- footer-start -->
+    <footer class="bg-[#030712] py-28">
+      <section class="w-[90%] mx-auto">
+        <!-- Up section -->
+        <div
+          class="flex justify-between items-center pb-14 border-b-2 border-dashed"
+        >
+          <!-- left-box -->
+          <div class="space-y-2 text-white">
+            <h3 class="mb-4 text-4xl font-bold">Shanti Ticket</h3>
+            <p class="opacity-80">
+              Shanti Ticket is a digital platform to make your <br />
+              daily commuting better.
+            </p>
+          </div>
+          <!-- right-box -->
+          <div class="space-y-3 text-white">
+            <p class="text-xl font-semibold">Download our app</p>
+            <div
+              class="border border-white p-2 flex gap-2 rounded-lg items-center"
+            >
+              <div><img src="./images/playstore.png" alt="" /></div>
+              <div class="space-y-1">
+                <p class="text-xs opacity-70">GET IT ON</p>
+                <p class="text-2xl font-semibold">Google Play</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- down section -->
+        <div class="flex justify-between items-center pt-10">
+          <p class="text-white opacity-70">
+            @all rights reserved, Shanti Ticket services limited.2024
+          </p>
+
+          <div class="flex gap-10 items-center text-white">
+            <p class="font-medium">Terms & condition</p>
+            <p class="font-medium">Return & refund policy</p>
+            <p class="font-medium">Privacy policy</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- footer-end -->
 
     <script src="./utility.js"></script>
     <script src="./index.js"></script>

@@ -1,6 +1,7 @@
-// select the chairs
 let totalSeat = 40;
 let count = 0;
+
+// select the chairs
 const chairs = document.getElementsByClassName("chair");
 
 // loop through the collection
@@ -47,7 +48,6 @@ for (let chair of chairs) {
 
       chairP.append(span1, span2, span3);
       chairDetailsContainer.appendChild(chairP);
-      //   append chair details
 
       //   decrease available seat
       let totalSeatEl = document.getElementById("totalSeat");
